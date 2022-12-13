@@ -5,3 +5,4 @@
 float mass(int n,float a[]);
 
 #endif //TUTORATO_21_11_22_LIB_H
+
