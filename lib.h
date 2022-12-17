@@ -1,6 +1,6 @@
-#ifndef TUTORATO_21_11_22_LIB_H
-#define TUTORATO_21_11_22_LIB_H
+#ifndef ESERCITAZIONE9_2_LIB_H
+#define ESERCITAZIONE9_2_LIB_H
 
-float mass(int n,float a[]);
+bool comp(char [10][20], int &, char[]);
 
-#endif //TUTORATO_21_11_22_LIB_H
+#endif //ESERCITAZIONE9_2_LIB_H
