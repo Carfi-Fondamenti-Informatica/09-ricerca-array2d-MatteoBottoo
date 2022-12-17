@@ -1,13 +1,17 @@
 #include "lib.h"
 
-float mass(int n,float a[]){
-    float m;
-    for (int c=0;c<n;c++){
-        if(c==0){
-            m=a[c];
-        } else if (a[c]>m) {
-            m=a[c];
+bool comp(char list[10][10], int &p, char name[]){
+    for (int i=0;i<10;i++){
+        for (int j=0;j<20;j++){
+            if(list[i][j]!=name[j]){
+                j=20;
+            }else{
+                if(j==19){
+                    p=i;
+                    return true;
+                }
+            }
         }
     }
-    return m;
+    return false;
 }
